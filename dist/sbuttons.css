@@ -2054,6 +2054,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
 .invert-btn:hover {
   animation: colorTransformation 0.5s;
   animation-fill-mode: forwards;
+  transition: width 2s, height 2s, transform 2s;
 }
 @keyframes colorTransformation {
   0% {
@@ -2080,6 +2081,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: 0.5s linear;
   width: 400px;
   z-index: -1;
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn::after {
   animation: waterEffect 10s linear infinite;
@@ -2094,6 +2096,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   transition: 0.5s linear;
   width: 400px;
   z-index: -1;
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn.blue-btn {
   border-color: #50bfe6;
@@ -2155,6 +2158,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #ed0a3f;
   color: #000 !important;
   background-color: #ed0a3f;
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn.red-btn:hover::before {
   top: -120px;
@@ -2166,6 +2170,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   border-color: #652dc1;
   color: #000 !important;
   background-color: #652dc1;
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn.purple-btn:hover::before {
   top: -120px;
@@ -2178,6 +2183,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #000;
   color: #fff !important;
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn.black-btn:hover::before {
   top: -120px;
@@ -2190,6 +2196,7 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000 !important;
   background-color: #fff;
   border-color: rgba(0, 0, 0, 0.2);
+  transition: width 2s, height 2s, transform 2s;
 }
 .liquid-btn.white-btn:hover::before {
   top: -120px;
@@ -2228,37 +2235,44 @@ a.yellow-btn:active:not(.fill-color-btn) {
   color: #000;
   background-color: #ff013c;
   box-shadow: 0px 0px 52px 10px #ff013c;
+  transition: width 2s, height 2s, transform 2s;
 }
 .neon-btn.purple-btn:hover {
   color: #000;
   background-color: #8d47ff;
   box-shadow: 0px 0px 52px 10px #8d47ff;
+  transition: width 2s, height 2s, transform 2s;
 }
 .neon-btn.orange-btn:hover {
   color: #000;
   background-color: #ff9b18;
   box-shadow: 0px 0px 52px 10px #ff9b18;
+  transition: width 2s, height 2s, transform 2s;
 }
 .neon-btn.yellow-btn:hover {
   color: #000;
   background-color: #ffe53d;
   box-shadow: 0px 0px 52px 10px #ffe53d;
+  transition: width 2s, height 2s, transform 2s;
 }
 .neon-btn.pink-btn:hover {
   color: #000;
   background-color: #ff2aca;
   box-shadow: 0px 0px 52px 10px #ff2aca;
+  transition: width 2s, height 2s, transform 2s;
 }
 .neon-btn.black-btn:hover {
   color: #000;
   background-color: #414141;
   box-shadow: 0px 0px 52px 10px #414141;
+  transition: width 2s, height 2s, transform 2s;
   color: #fff !important;
 }
 .neon-btn.white-btn:hover {
   color: #000;
   background-color: #e2e2e2;
   box-shadow: 0px 0px 52px 10px #e2e2e2;
+  transition: width 2s, height 2s, transform 2s;
 }
 .nudge-btn:hover {
   animation: nudge 0.75s;
